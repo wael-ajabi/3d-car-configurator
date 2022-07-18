@@ -3,25 +3,32 @@
   "body_colors":
   {
     "colors":
-    [    
-      {
-        "name":"Arancio Atlas",
+    [     {
+      "name":"",
+      "value":"#DC7F64"
+    } ,
+    {
+      "name":"",
+      "value":"#b87333"
+    }
+      ,{
+        "name":"",
         "value":"#F77F21"
       },
       {
-        "name":"Arancio Argos",
+        "name":"",
         "value":"#FC4705"
       },
       {
-        "name":"Blu Cepheus",
+        "name":"",
         "value":"#4393E6"
       },
       {
-        "name":"Rosso Mars",
+        "name":"",
         "value":"#BF0012"
       },
       {
-        "name":"Bianco Monocerus",
+        "name":"",
         "value":"#F2F3F5"
       }
     ],

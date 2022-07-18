@@ -687,22 +687,22 @@ function LoadConfigurator(mConfigJSON)
             {           
                 console.log(mConfigJSON[configID]);
              if(targetName==='2'){    texture1 = new THREE.TextureLoader().load( 'data/aventador/'+text);
-                 console.log( Mt_Body);
+                
 
                  Mt_Body.map= texture1 
                  Mt_Body.needsUpdate=true;
-               console.log(Mt_Body)
+               
                 }
                 //Set the corresponding entity object visible
                 // SetEntitytexture(texture,'Mt_Body');
 
             
             else if(targetName==='1'){    texture1 = new THREE.TextureLoader().load( 'data/aventador/'+text2);
-                 console.log( Mt_Body);
+                 
 
                  Mt_Body.map= texture1 
                  Mt_Body.needsUpdate=true;
-               console.log(Mt_Body)
+               
                 }
                 else if (targetName==='3') {
                     Mt_Body.map= null;
