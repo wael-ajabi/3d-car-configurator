@@ -268,7 +268,7 @@ function LoadAventador(config)
 
     var Mt_AventadorAtlas       = new THREE.MeshStandardMaterial( {color: 0xffffff, roughness:0.5, metalness:0.5, envMap:mCubeMap, map:AventadorAtlas_Albedo, transparent:true} ); 
 
-     Mt_Body                 = new THREE.MeshStandardMaterial( {name: 'Mt_Body', color: dfCol_Body, roughness:0.0, metalness:0.0, } );    
+     Mt_Body                 = new THREE.MeshStandardMaterial( {name: 'Mt_Body', color: dfCol_Body, roughness:0.5, metalness:0.2, } );    
     var Mt_BrakeCaliper        	= new THREE.MeshStandardMaterial( {name: 'Mt_BrakeCaliper', color: dfCol_Caliper, roughness:0.5, metalness:0.5, envMap:mCubeMap} );
     var Mt_Chrome               = new THREE.MeshStandardMaterial( {color: 0xFFFFFF, roughness:0.0, metalness:1.0, envMap:mCubeMap} );
     var Mt_Glass_Lens           = new THREE.MeshStandardMaterial( {color: 0xFFFFFF, roughness:0.0, metalness:0.25, envMap:mCubeMap} );
