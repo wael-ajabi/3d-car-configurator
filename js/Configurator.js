@@ -202,10 +202,13 @@ function SetupEnvironment()
     mShadowPlane.position.y=0.05;
     mScene.add( mShadowPlane );
 }
-
+var gass=true
 //Function to skip the intro
 function SkipIntro()
+
 {
+    if(gass==true){
+    gass=false
     //Start fading the audio
     $(mAudioTrack).animate({volume:0},900,function()
     {
@@ -229,11 +232,12 @@ function SkipIntro()
 
         //Load the configuration
         LoadConfigurator(mConfigJSON);
+        
 
         //Fade out the screen
         $('.screen-fader').fadeOut(900);
     });
-}
+}}
 var Mt_Body 
 //Function to load the entities
 function LoadAventador(config)
@@ -622,10 +626,10 @@ function LoadConfigurator(mConfigJSON)
                     '</ul>',
                 '</div>',
 
-                '<div id="wheel_designs" class="palette-content">',
-                    '<ul>',
-                    '</ul>',
-                '</div>',
+                // '<div id="wheel_designs" class="palette-content">',
+                //     '<ul>',
+                //     '</ul>',
+                // '</div>',
 
                 '<div id="wheel_colors" class="palette-content">',
                     '<ul>',
